@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    margin-bottom: 200px;
+    overflow-x: hidden;
+}
+
+.cabecalho{
+    background-color: black;
+}
+
+.cabecalho > header{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho > header > img{
+    width: 40px;
+}
+
+.ofertasPagamento{
+    background-color: rgba(59, 54, 54, 0.163);
+    padding: 20px;
+    text-align: center;
+}
+
+.partePrincipal > h1{
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.partePrincipal > p{
+    text-indent: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#gray{
+    color: rgba(128, 128, 128, 0.822);
+    text-align: center;
+}
+
+#btnComprar{
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(27, 27, 226);
+    padding: 15px;
+    color: white;
+    border: none;
+    width: 150px;
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.botoes > label {
+    display: flex;
+    flex-direction: column; /* label em cima, input embaixo */
+    align-items: center;    /* centraliza o conteúdo */
+    width: 80px;
+    text-align: center;
+    word-wrap: break-word;            /* largura do bloco */
+}
+
+.botoes > label > div{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.imgsEBotoes > img{
+    margin: 20px;
+}
+
+.corVerde { background-color: #4CAF50; }
+.corPrateado { background-color: #C0C0C0; }
+.corDourado { background-color: #FFD700; }
+.corGrafite { background-color: #333333; }
+.corAzulSierra { background-color: #0072CE; }
